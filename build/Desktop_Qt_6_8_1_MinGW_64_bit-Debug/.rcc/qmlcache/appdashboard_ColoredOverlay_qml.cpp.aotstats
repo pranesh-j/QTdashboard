@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 395,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 141,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 142,
+                        "errorMessage": "Cannot load property color from (component in C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/ColoredOverlay.qml)::parent with type QQuickItem.",
+                        "functionName": "color",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 16
+                    }
+                ],
+                "filepath": "C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/ColoredOverlay.qml"
+            }
+        ],
+        "moduleId": "dashboard(appdashboard)"
+    }
+]

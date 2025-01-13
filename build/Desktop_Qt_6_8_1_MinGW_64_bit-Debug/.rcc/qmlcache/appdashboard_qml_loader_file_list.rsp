@@ -1,0 +1,10 @@
+--resource
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_dashboard.qrc
+--resource
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appdashboard_raw_qml_0.qrc
+/qt/qml/dashboard/Main.qml
+/qt/qml/dashboard/InfoPanel.qml
+/qt/qml/dashboard/NavigationLine.qml
+/qt/qml/dashboard/WingSpeedometer.qml
+/qt/qml/dashboard/ModeSelector.qml
+/qt/qml/dashboard/ColoredOverlay.qml

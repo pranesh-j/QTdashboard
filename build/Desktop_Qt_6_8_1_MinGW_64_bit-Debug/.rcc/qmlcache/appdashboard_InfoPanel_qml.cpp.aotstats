@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 568,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 8
+                    }
+                ],
+                "filepath": "C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/InfoPanel.qml"
+            }
+        ],
+        "moduleId": "dashboard(appdashboard)"
+    }
+]

@@ -1,0 +1,17 @@
+--bare
+-I
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+-I
+C:/Qtapp/6.8.1/mingw_64/qml
+--resource
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_dashboard.qrc
+--resource
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appdashboard_raw_qml_0.qrc
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/Main.qml
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/InfoPanel.qml
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/NavigationLine.qml
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/WingSpeedometer.qml
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/ModeSelector.qml
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/ColoredOverlay.qml
+--json
+C:/Users/pooja/OneDrive/Desktop/dashboard/dashboard/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appdashboard_qmllint.json
