@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 403,
+                        "durationMicroseconds": 266,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 10
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 599,
+                        "durationMicroseconds": 727,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "model",
                         "line": 14
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 1163,
+                        "durationMicroseconds": 537,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
                         "line": 16
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 149,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 17
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "weight",
                         "line": 19
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "onClicked",
                         "line": 23
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 226,
+                        "durationMicroseconds": 171,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 24
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 41166,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 22
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 100,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "visible",
                         "line": 29
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 201,
+                        "durationMicroseconds": 280,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 33
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 211,
+                        "durationMicroseconds": 189,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 31

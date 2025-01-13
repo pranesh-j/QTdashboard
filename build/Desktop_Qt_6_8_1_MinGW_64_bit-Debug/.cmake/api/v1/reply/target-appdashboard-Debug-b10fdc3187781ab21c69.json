@@ -1122,7 +1122,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
+				"backtrace" : 6,
 				"fragment" : "C:\\Qtapp\\6.8.1\\mingw_64\\lib\\libQt6Gui.a",
 				"role" : "libraries"
 			},

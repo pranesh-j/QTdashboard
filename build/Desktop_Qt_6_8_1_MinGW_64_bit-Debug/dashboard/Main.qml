@@ -204,34 +204,13 @@ Window {
             width: 96
         }
 
-        // Futuristic Speedometer
-        Item {
+        // Speedometer
+        WingSpeedometer {
             id: speedometer
             anchors.centerIn: parent
             width: 300
             height: 300
-
-            Canvas {
-                anchors.fill: parent
-                onPaint: {
-                    var ctx = getContext('2d');
-                    ctx.clearRect(0, 0, width, height);
-                    ctx.beginPath();
-                    ctx.arc(width / 2, height / 2, 140, 0, Math.PI * 2);
-                    ctx.strokeStyle = '#2dd4bf';
-                    ctx.lineWidth = 5;
-                    ctx.stroke();
-
-                    // Needle
-                    ctx.beginPath();
-                    ctx.moveTo(width / 2, height / 2);
-                    var angle = (root.currentSpeed / 180) * Math.PI * 2;
-                    ctx.lineTo(width / 2 + 120 * Math.cos(angle - Math.PI / 2), height / 2 + 120 * Math.sin(angle - Math.PI / 2));
-                    ctx.strokeStyle = '#ef4444';
-                    ctx.lineWidth = 3;
-                    ctx.stroke();
-                }
-            }
+            speed: root.currentSpeed
         }
 
         InfoPanel {

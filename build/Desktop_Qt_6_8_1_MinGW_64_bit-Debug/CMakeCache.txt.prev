@@ -364,9 +364,6 @@ Qt6Qml_DIR:PATH=C:/Qtapp/6.8.1/mingw_64/lib/cmake/Qt6Qml
 //The directory containing a CMake configuration file for Qt6QuickControls2.
 Qt6QuickControls2_DIR:PATH=C:/Qtapp/6.8.1/mingw_64/lib/cmake/Qt6QuickControls2
 
-//The directory containing a CMake configuration file for Qt6QuickEffects.
-Qt6QuickEffects_DIR:PATH=Qt6QuickEffects_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for Qt6QuickTemplates2.
 Qt6QuickTemplates2_DIR:PATH=C:/Qtapp/6.8.1/mingw_64/lib/cmake/Qt6QuickTemplates2
 
