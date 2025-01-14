@@ -1,6 +1,6 @@
 # Electric Scooter Dashboard
 
-![App Screenshot](path/to/your/screenshot.png)
+![App Screenshot](https://github.com/pranesh-j/QTdashboard/blob/main/icons/Screenshot%202025-01-14%20202313.png)
 
 ## Overview
 
