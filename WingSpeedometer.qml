@@ -4,9 +4,23 @@ import QtQuick.Shapes
 
 Item {
     id: root
-    property int speed: 113
+    property real speed: 113
+    property int displaySpeed: Math.round(speed)
     property int maxSpeed: 200
     property real speedPercent: speed / maxSpeed
+
+    // Timer for speed updates
+    Timer {
+        id: speedTimer
+        interval: 3000 // Update every 3 seconds
+        running: true
+        repeat: true
+        onTriggered: {
+            // Generate random speed between 0 and maxSpeed
+            var newSpeed = Math.floor(Math.random() * (maxSpeed - 30)) + 30
+            root.speed = newSpeed
+        }
+    }
 
     // Outer ticks
     Canvas {
@@ -105,8 +119,9 @@ Item {
         spacing: 0
 
         Text {
+            id: speedText
             anchors.horizontalCenter: parent.horizontalCenter
-            text: Math.round(speed)
+            text: root.displaySpeed.toString()
             font {
                 pixelSize: root.width * 0.15
                 bold: true
@@ -151,9 +166,16 @@ Item {
     }
 
     // Smooth speed transitions
+    Behavior on speed {
+        NumberAnimation {
+            duration: 1000
+            easing.type: Easing.OutCubic
+        }
+    }
+
     Behavior on speedPercent {
         NumberAnimation {
-            duration: 500
+            duration: 1000
             easing.type: Easing.OutCubic
         }
     }
